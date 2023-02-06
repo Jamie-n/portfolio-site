@@ -5,16 +5,18 @@
     @include('partials.head')
 </head>
 <body>
-<div class="grid grid-cols-12 min-w-screen">
-    <div class="col-span-1 bg-neutral-900">
+<div class="min-w-screen flex">
+    <div class="w-2/12 bg-emerald-500 min-h-screen">
         @include('nav')
     </div>
-
-    <div class="relative text-center col-span-11">
-        <img src="{{asset('images/RZKlw1KMk4TZ4sK7z6gRnI5KeHl85yio4vh3sLz3.jpg')}}" class="h-full" alt="">
-        <div class="centered">
-            @yield('content')
-        </div>
+    <div class="w-10/12 min-h-screen">
+    @hasSection('title')
+    <div class="bg-neutral-50 container">
+        @yield('title')
+    </div>
+    @endif
+    <div class="p-8">
+        @yield('content')
     </div>
 </div>
 </body>

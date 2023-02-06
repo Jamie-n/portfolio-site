@@ -1,21 +1,19 @@
-<div class="flex min-h-screen p-5">
+<div class="min-h-screen relative px-8">
 
-    <div class="flex flex-col justify-between">
-        <div>
-           <p class="text-white">
-               J.N
-           </p>
-        </div>
 
-        <div class="justify-items-center">
-            <x-nav-link href="{{route('index')}}" name="Home"/>
-            <x-nav-link href="{{route('index')}}" name="Projects"/>
-            <x-nav-link href="{{route('index')}}" name="Technologies & Skills"/>
-            <x-nav-link href="{{route('index')}}" name="Experience"/>
-        </div>
-        <div class="flex gap-5 justify-center">
-            <x-nav-link class="fab fa-linkedin-in text-white text-2xl" href="https://www.linkedin.com/in/jamie-neighbours/" rel="noreferrer" target="_blank" alt-text="LinkedIn Icon"/>
-            <x-nav-link class="fab fa-github text-white text-2xl" href="https://github.com/Jamie-n" rel="noreferrer" target="_blank" alt-text="GitHub Icon"/>
+    <div class="centered">
+        <x-nav-link href="{{route('index')}}" name="Home" icon="fas fa-home" alt-text="Home icon"/>
+        <x-nav-link href="{{route('index')}}" name="Experience" icon="fas fa-briefcase" alt-text="Experience icon"/>
+        <x-nav-link href="{{route('index')}}" name="Education" icon="fas fa-school" alt-text="Eduction icon"/>
+        <x-nav-link href="{{route('index')}}" name="Projects" icon="fas fa-computer" alt-text="Project icon"/>
+    </div>
+
+    <div class="absolute bottom-2">
+        <div class="gap-6 flex">
+            <x-nav-link icon="fab fa-linkedin-in text-white text-2xl hover:text-black ease-in-out duration-100" href="https://www.linkedin.com/in/jamie-neighbours/" rel="noreferrer" target="_blank" alt-text="LinkedIn Icon"/>
+            <x-nav-link icon="fab fa-github text-white text-2xl hover:text-black ease-in-out duration-100" href="https://github.com/Jamie-n" rel="noreferrer" target="_blank" alt-text="GitHub Icon"/>
         </div>
     </div>
+
 </div>
+

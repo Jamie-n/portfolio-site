@@ -6,10 +6,19 @@ body{
     white-space: nowrap;
     position: absolute;
     top: 50%;
-    left: 23%;
-    transform: translate(-50%, -50%);
+    transform: translate(0,-50%);
 }
 
 .code{
     font-family: "IBM Plex Mono", Serif;!important;
+}
+
+.container{
+    padding: 4rem 3rem;
+
+}
+
+.icon{
+    height: 40px;
+    display: inline;
 }
