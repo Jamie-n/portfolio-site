@@ -19,15 +19,22 @@
             </x-fake-code-block>
 
             <x-fake-code-block tag="p" class="mb-6">
-                <p>I'm a software engineer with a background developing dynamic web applications using Laravel.<br/><br/> Want to see some examples of my work? <br/><br/>
-
-                    Check out my
-                    <x-anchor route="https://github.com/Jamie-n" target="_blank" rel="noreferrer">GitHub</x-anchor>
-                    or the
-                    <x-anchor :route="route('projects.index')">projects section</x-anchor>
-                    of this website.
-                </p>
+                <p> I am a web developer with a strong focus on developing dynamic and scalable web applications using Laravel. With an eye for design and a deep understanding of Laravel, I bring a creative approach to each project I undertake, working closely with clients to understand their needs and goals to bring their vision to life. Whether it's a simple brochure website or a complex business critical web application, I strive to deliver clean, well-structured code that meets the highest standards of quality and performance
             </x-fake-code-block>
+
+                    <x-fake-code-block tag="p" class="mb-6">
+                        Want to see some examples of my work?
+
+                        Check out my
+                        <x-anchor route="https://github.com/Jamie-n" target="_blank" rel="noreferrer">GitHub</x-anchor>
+                        or the
+                        <x-anchor :route="route('projects.index')">projects section</x-anchor>
+                        of this website.
+                    </x-fake-code-block>
+
+
+
+
 
 
             <button class="bg-emerald-500 rounded text-white p-3 hover:bg-emerald-600 ease-in-out duration-200"><i class="far fa-circle-down"></i> Download CV</button>

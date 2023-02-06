@@ -6,14 +6,19 @@
         <h3 class="font-bold text-3xl">Work Experience</h3>
     </x-fake-code-block>
 
-    <div class="text-center mb-20">
+    <div class="mb-20 mt-10">
         <img src="{{asset('images/NHS-lozenge.jpg')}}" class="icon" alt="NHS & THIS logo">
-        <p class="font-bold text-xl mt-5 mb-5">The Health Informatics Service <br><br> Jun 2020 - Present </p>
+        <p class="font-bold text-xl mt-5 mb-5">The Health Informatics Service </p>
+        <p class="font-bold text-lg mt-5 mb-5">Student Web Developer / Backend Web Developer</p>
+
+        <p class="font-bold mt-5 mb-5">Jun 2020 - Present </p>
 
 
-        Initially starting as a sandwich year placement, my contract was extended beyond the initial 1 year end date. Working as a Laravel developer within a team of 2 other developers working for Calderdale and Huddersfield Foundation NHS Trust (CHFT) to enhance digital maturity.
-        The majority of the role consists with consulting with clients within the Trust and bringing their systems to life to enhance existing business processes and translating these into digital systems.<br/><br/> My main responsibilities are:<br/><br/>
-        <ul>
+        I began as a placement student, however my contract was extended beyond the initial one-year term. I am part of a team of two other Laravel developers working with Calderdale and Huddersfield Foundation NHS Trust and other healthcare organisations with the goal of improving their digital maturity. The bulk of my role involves consulting with clients within the healthcare sector to help enhance their existing business processes by developing digital systems which have the capability to optimize existing inefficient business processes or meet new government directives.
+
+
+        <br/><br/> My main responsibilities are:<br/><br/>
+        <ul class="list-disc pl-5">
             <li>Consulting & Communicating with Clients.</li>
             <li>Designing & Modelling Systems.</li>
             <li>Developing Laravel Applications to Specification.</li>
@@ -26,13 +31,18 @@
     </div>
 
 
-    <div class="text-center">
+    <div>
         <img src="{{asset('images/js-wetherspoon.png')}}" class="icon" alt="JD wetherspoon logo">
-        <p class="font-bold text-xl mt-5 mb-5">JD Wetherspoon <br><br> Oct 2017 - Nov 2019 </p>
+
+        <p class="font-bold text-xl mt-5 mb-5">JD Wetherspoon </p>
+
+        <p class="font-bold text-lg mt-5 mb-5">Bar Associate / Team Leader / Shift Leader</p>
+
+        <p class="font-bold mt-5 mb-5"> Oct 2017 - Nov 2019 </p>
 
         Initially starting as a weekend job whilst attending 6th form, my employment continued after deciding to take a gap year before attending university. During this year I was promoted twice, first to Team Leader and then to Shift Leader. I left this postion in 2019 to focus on my studies.<br/><br/>
         During my time at JD Wetherspoon my main responsibilities were:<br/><br/>
-        <ul>
+        <ul class="list-disc pl-5">
             <li>Managing up to 15 Front of House Staff and up to 6/7 Kitchen Staff</li>
             <li>Communicating with Customers</li>
             <li>Manging and Ordering Stock</li>
