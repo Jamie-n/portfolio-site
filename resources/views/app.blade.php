@@ -14,17 +14,21 @@
             <x-fake-code-block tag="h1" class="mb-3">
                 <h1 class="font-bold text-5xl">Jamie Neighbours</h1>
             </x-fake-code-block>
+            <x-fake-code-block tag="h2" class="mb-5">
+            <h2 class="font-bold text-3xl text-gray-400">Junior Full Stack Web Developer</h2>
+            </x-fake-code-block>
 
-            <h2 class="font-bold text-3xl text-gray-400 mb-5">Junior Full Stack Web Developer</h2>
+            <x-fake-code-block tag="p" class="mb-6">
+                <p>I'm a software engineer with a background developing dynamic web applications using Laravel.<br/><br/> Want to see some examples of my work? <br/><br/>
 
-            <p class="mb-6">I'm a software engineer with a background developing dynamic web applications using Laravel.<br/><br/> Want to see some examples of my work? <br/><br/>
+                    Check out my
+                    <x-anchor route="https://github.com/Jamie-n" target="_blank" rel="noreferrer">GitHub</x-anchor>
+                    or the
+                    <x-anchor :route="route('projects.index')">projects section</x-anchor>
+                    of this website.
+                </p>
+            </x-fake-code-block>
 
-                Check out my
-                <x-anchor>GitHub</x-anchor>
-                or the
-                <x-anchor>projects section</x-anchor>
-                of this website.
-            </p>
 
             <button class="bg-emerald-500 rounded text-white p-3 hover:bg-emerald-600 ease-in-out duration-200"><i class="far fa-circle-down"></i> Download CV</button>
         </div>
