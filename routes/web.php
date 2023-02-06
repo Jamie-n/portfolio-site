@@ -16,4 +16,5 @@ use Illuminate\Support\Facades\Route;
 Route::view('/', 'welcome')->name('index');
 Route::view('/experience', 'experience')->name('experience.index');
 Route::view('/education', 'education')->name('education.index');
-Route::view('/projects', 'welcome')->name('projects.index');
+Route::view('/projects', 'projects')->name('projects.index');
+Route::view('/contact', 'welcome')->name('contact.index');
