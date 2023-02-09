@@ -3,7 +3,7 @@
 @section('content')
 
     <x-fake-code-block tag="h3" class="mb-3">
-        <h3 class="font-bold text-3xl">Work Experience</h3>
+        <h3 class="font-bold text-3xl">Employment</h3>
     </x-fake-code-block>
 
     <div class="mb-20 mt-10">
