@@ -31,7 +31,6 @@
                         <x-anchor :route="route('projects.index')">projects section</x-anchor>
                         of this website.
                     </x-fake-code-block>
-            <a class="bg-emerald-500 rounded text-white p-3 hover:bg-emerald-600 ease-in-out duration-200" href="{{route('cv.download')}}"><i class="far fa-circle-down"></i> Download CV</a>
         </div>
 
         <div class="p-8 py-10 md:py-0">
