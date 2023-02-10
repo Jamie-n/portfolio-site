@@ -18,7 +18,6 @@
     let sidebar = false;
 
     $('#show_hide_button').click(function () {
-        console.log(sidebar)
         if (sidebar) {
             hide()
             sidebar = false;
@@ -30,7 +29,6 @@
 
 
     function hide() {
-        console.log("hide")
         $("#sidebar").animate({
             width: 0
         }, 300);
