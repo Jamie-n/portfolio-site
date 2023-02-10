@@ -8,7 +8,7 @@
 
     <span class="text-gray-400 italic">Hover over each icon for additional information & experience.</span>
 
-    <div class="grid grid-cols-2 lg:grid-cols-4 m-5 text-center">
+    <div class="grid grid-cols-2 lg:grid-cols-4 gap-2 lg:gap-4 m-5">
 
         @foreach($languagesAndFrameworks as $languageOrFramework)
             <x-icon-card :img="$languageOrFramework->img_asset_path" :alt="$languageOrFramework->img_alt_text" :title="$languageOrFramework->name">
@@ -24,7 +24,7 @@
 
     <span class="text-gray-400 italic">Hover over each icon for additional information & experience.</span>
 
-    <div class="grid grid-cols-2 lg:grid-cols-4 gap-4 m-5">
+    <div class="grid grid-cols-2 lg:grid-cols-4 gap-2 lg:gap-4 m-5">
 
         @foreach($technologies as $technology)
             <x-icon-card :img="$technology->img_asset_path" :alt="$technology->img_alt_text" :title="$technology->name">

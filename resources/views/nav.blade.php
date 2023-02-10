@@ -4,7 +4,6 @@
         <x-nav-link href="{{route('employment.index')}}" name="Employment" icon="fas fa-briefcase" alt-text="Experience icon"/>
         <x-nav-link href="{{route('education.index')}}" name="Education" icon="fas fa-school" alt-text="Eduction icon"/>
         <x-nav-link href="{{route('projects.index')}}" name="Projects" icon="fas fa-computer" alt-text="Project icon"/>
-        <x-nav-link href="{{route('contact.index')}}" name="Contact" icon="fas fa-phone" alt-text="Contact icon"/>
     </div>
 
     <div class="absolute bottom-2">
