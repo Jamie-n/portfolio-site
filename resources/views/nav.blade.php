@@ -1,6 +1,4 @@
-<div class="min-h-screen relative px-8">
-
-
+<div class="min-h-screen lg:relative px-8 hidden md:block" id="nav-links">
     <div class="centered">
         <x-nav-link href="{{route('index')}}" name="Home" icon="fas fa-home" alt-text="Home icon"/>
         <x-nav-link href="{{route('employment.index')}}" name="Employment" icon="fas fa-briefcase" alt-text="Experience icon"/>
@@ -15,6 +13,43 @@
             <x-nav-link icon="fab fa-github text-white text-2xl hover:text-black ease-in-out duration-100" href="https://github.com/Jamie-n" rel="noreferrer" target="_blank" alt-text="GitHub Icon"/>
         </div>
     </div>
-
 </div>
 
+<script>
+    let sidebar = false;
+
+    $('#show_hide_button').click(function () {
+        console.log(sidebar)
+        if (sidebar) {
+            hide()
+            sidebar = false;
+        } else {
+            show()
+            sidebar = true;
+        }
+    })
+
+
+    function hide() {
+        console.log("hide")
+        $("#sidebar").animate({
+            width: 0
+        }, 300);
+
+        setTimeout(function() {
+            $("#sidebar").addClass('hidden').removeClass('fixed')
+        }, 300);
+    }
+
+    function show() {
+        $("#sidebar").addClass('fixed').removeClass('hidden')
+        $("#sidebar").animate({
+            width: $(window).width()
+        }, 500);
+
+        setTimeout(function() {
+            $("#nav-links").delay(600).removeClass('hidden')
+        }, 200);
+
+    }
+</script>

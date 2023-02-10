@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\DownloadController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -18,3 +19,5 @@ Route::view('/employment', 'employment')->name('employment.index');
 Route::view('/education', 'education')->name('education.index');
 Route::view('/projects', 'projects')->name('projects.index');
 Route::view('/contact', 'welcome')->name('contact.index');
+
+Route::get('download-cv', [DownloadController::class, 'download'])->name('cv.download');

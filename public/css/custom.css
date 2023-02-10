@@ -22,3 +22,22 @@ body{
     height: 40px;
     display: inline;
 }
+
+.sidebar{
+    width: 300px;
+}
+
+@media not all and (min-width: 768px) {
+    .sidebar{
+        padding: 0!important;
+        width: 0vw;
+    }
+
+    .content{
+        margin-left: 0!important;
+    }
+}
+
+.content{
+    margin-left: 300px;
+}
