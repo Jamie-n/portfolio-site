@@ -16,7 +16,7 @@
                 <h1 class="font-bold text-5xl">Jamie Neighbours</h1>
             </x-fake-code-block>
             <x-fake-code-block tag="h2" class="mb-5">
-            <h2 class="font-bold text-3xl text-gray-400">Junior Full Stack Web Developer</h2>
+            <h2 class="font-bold text-3xl text-gray-400">Full Stack Laravel Developer</h2>
             </x-fake-code-block>
 
             <x-fake-code-block tag="p" class="mb-6">
