@@ -11,7 +11,7 @@
         @include('nav')
     </div>
     <div class="content">
-        <div class="bg-neutral-50 py-16 px-12">
+        <div class="bg-neutral-50 py-16 px-12 mb-5">
             <x-fake-code-block tag="h1" class="mb-3">
                 <h1 class="font-bold text-5xl">Jamie Neighbours</h1>
             </x-fake-code-block>
