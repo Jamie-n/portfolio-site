@@ -20,6 +20,8 @@
         <p class="font-bold text-lg mb-5">Software Engineering BSc (Hons)</p>
         <p class="font-bold mb-5"> September 2019 - May 2023 </p>
 
+        <p class="font-bold text-sm mb-5">Degree Classification: 1:1</p>
+
         <p class="font-bold text-sm">Final Year Modules</p>
         <ul class="list-disc pl-5 mb-4">
             <li>Advanced Web Programming (A - 89%)</li>

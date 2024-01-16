@@ -12,10 +12,7 @@
         <p class="font-bold text-lg mt-5 mb-5">Student Web Developer / Backend Web Developer</p>
 
         <p class="font-bold mt-5 mb-5">Jun 2020 - Present </p>
-
-
         I began as a placement student, however my contract was extended beyond the initial one-year term. I am part of a team of two other Laravel developers working with Calderdale and Huddersfield Foundation NHS Trust and other healthcare organisations with the goal of improving their digital maturity. The bulk of my role involves consulting with clients within the healthcare sector to help enhance their existing business processes by developing digital systems which have the capability to optimize existing inefficient business processes or meet new government directives.
-
 
         <br/><br/> My main responsibilities are:<br/><br/>
         <ul class="list-disc pl-5">
