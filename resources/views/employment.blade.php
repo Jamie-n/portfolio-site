@@ -31,7 +31,7 @@
     </div>
 
 
-    <div>
+    <div class="mb-4">
         <img src="{{asset('images/js-wetherspoon.png')}}" class="icon" alt="JD wetherspoon logo">
 
         <p class="font-bold text-xl mt-5 mb-5">JD Wetherspoon </p>
